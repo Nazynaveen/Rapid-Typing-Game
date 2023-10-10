@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100;1,200;1,300;1,500&display=swap" rel="stylesheet">
+
+   
+</head>
+<body  class="main" >
+   
+    <div >
+
+        <div class="nav">
+            <h1 class="nazy"> Rapid typing Game</h1>
+        </div>
+        <div class="maain">
+        <div class="img">
+        <div class="body">
+            <div class="task">
+            <h3>
+                 <b>TASK : </b>Type the Given Word in <span>5</span> seconds
+            </h3>
+            </div>
+            <h1 id="word">Word</h1>
+            <div class="inp" >
+            <input type="text"  autocomplete="off" placeholder="&nbsp;&nbsp;&nbsp;Type here....." id="x">
+            <p id="gamestatus"><b>If you want to start the Game<br>Click START</br></b>
+            </b></p>
+        </div>
+            <div class="timer">
+            <h4>Time Left: <span id="time">5</span></h4>
+            <h4>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Score: <span id="score">0</span></h4>
+        </div>
+        <div>
+            <button class="btn"onclick="start()">START</button>
+        </div>
+            <div class="intr">
+            <p><h2>Instruction</h2>
+                You have to finish the Game before the deadline <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Otherwise you will loss the opportunity
+            </p>
+        </div>
+
+        </div>
+    </div>
+    </div>
+<div class="des" id="mouse">
+
+    </div>
+    <div class="tt" id="mouse">
+
+    </div>
+   
+    
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
